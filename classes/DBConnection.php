@@ -35,6 +35,4 @@ class DBConnection
     }
 }
 
-// Testing the connection
-$dbConnection = new DBConnection();
 ?>
