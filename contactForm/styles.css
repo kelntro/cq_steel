@@ -1,0 +1,25 @@
+@import url('https://fonts.gooleapis.com/ccs?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.field.error .item {
+   border-color: red;
+}
+
+.field .item::placeholder {
+   color: rgb(0, 0, 0);
+}
+
+.field .error-txt {
+   font-size: 14.5px;
+   color: red;
+   text-align: left;
+   display: none;
+}
+
+.field.error .error-txt {
+   display: block;
+}
+
+form .textarea-field .item {
+   resize: none;
+}
